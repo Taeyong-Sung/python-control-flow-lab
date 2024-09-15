@@ -13,15 +13,15 @@
 # - Use a conditional statement to check if `python_is_fun` is `True`.
 # - If `python_is_fun` is `True`, print the message "Python is fun!"
 
-# def print_greeting():
-#     python_is_fun = True
-#     if python_is_fun:
-#         print("Python is fun!")
-#     else:
-#         print("python is not fun!")
+def print_greeting():
+    python_is_fun = True
+    if python_is_fun:
+        print("Python is fun!")
+    else:
+        print("python is not fun!")
 
-# # Call the function
-# print_greeting()
+# Call the function
+print_greeting()
 
 
 
@@ -44,15 +44,15 @@
 # - Utilize the `in` operator to check for vowels.
 # - Ensure to provide feedback for non-alphabetical or invalid entries.
 
-# def check_letter():
-#     letter = input("Enter a letter: ").lower()
-#     if letter in 'aeiou':
-#         print(f"The letter {letter} is a vowel.")
-#     else:
-#         print(f"The letter {letter} is a consonant.")
+def check_letter():
+    letter = input("Enter a letter: ").lower()
+    if letter in 'aeiou':
+        print(f"The letter {letter} is a vowel.")
+    else:
+        print(f"The letter {letter} is a consonant.")
 
-# # Call the function
-# check_letter()
+# Call the function
+check_letter()
 
 
 
@@ -74,18 +74,18 @@
 # - Use `int()` to convert the input to an integer. Ensure to handle any conversion errors gracefully.
 # - Use a conditional statement to check if the age meets the minimum voting age requirement.
 
-# def check_voting_eligibility():
-#     voting_age = 18
-#     age = int(input("Please enter your age: ").lower())
-#     if age < 0:
-#         print("Please enter a valid age!")
-#     elif age >= voting_age:
-#         print(f"You are {age}, and is able to vote!")
-#     elif age <= voting_age:
-#         print(f"You are {age}, and is not able to vote yet!")
+def check_voting_eligibility():
+    voting_age = 18
+    age = int(input("Please enter your age: ").lower())
+    if age < 0:
+        print("Please enter a valid age!")
+    elif age >= voting_age:
+        print(f"You are {age}, and is able to vote!")
+    elif age <= voting_age:
+        print(f"You are {age}, and is not able to vote yet!")
 
-# # Call the function
-# check_voting_eligibility()
+# Call the function
+check_voting_eligibility()
 
 
 
@@ -109,18 +109,18 @@
 # - Convert the string input to an integer using `int()`.
 # - Apply conditional logic to perform the correct age calculation based on the dog's age.
 
-# def calculate_dog_years():
-#     dog_age = int(input("Input a dog's age: "))
-#     if dog_age < 0:
-#         print("Age cannot be negetive!")
-#     elif dog_age <= 2:
-#         dog_years = dog_age * 5
-#     else:
-#         dog_years = 10 + (dog_age - 2) * 7
-#     print(f"The dog's age in dog years is {dog_years}.")
+def calculate_dog_years():
+    dog_age = int(input("Input a dog's age: "))
+    if dog_age < 0:
+        print("Age cannot be negetive!")
+    elif dog_age <= 2:
+        dog_years = dog_age * 5
+    else:
+        dog_years = 10 + (dog_age - 2) * 7
+    print(f"The dog's age in dog years is {dog_years}.")
     
-# # Call the function
-# calculate_dog_years()
+# Call the function
+calculate_dog_years()
 
 
 
@@ -142,20 +142,20 @@
 # Hints:
 # - Use logical operators (`AND`, `OR`, `NOT`) in your if statements to handle multiple conditions.
 
-# def weather_advice():
-#     cold = input("Is it cold? (yes/no): ").lower()
-#     raining = input("Is it raining? (yes/no): ").lower()
-#     if cold == "yes" and raining == "yes":
-#         print("Wear a waterproof coat.")
-#     elif cold == "yes" and raining == "no":
-#         print("Wear a warm coat.")
-#     elif cold == "no" and raining == "yes":
-#         print("Carry an umbrella.")
-#     elif cold == "no" and raining == "no":
-#         print("Wear light clothing.")
+def weather_advice():
+    cold = input("Is it cold? (yes/no): ").lower()
+    raining = input("Is it raining? (yes/no): ").lower()
+    if cold == "yes" and raining == "yes":
+        print("Wear a waterproof coat.")
+    elif cold == "yes" and raining == "no":
+        print("Wear a warm coat.")
+    elif cold == "no" and raining == "yes":
+        print("Carry an umbrella.")
+    elif cold == "no" and raining == "no":
+        print("Wear light clothing.")
         
-# # Call the function
-# weather_advice()
+# Call the function
+weather_advice()
 
 
 
